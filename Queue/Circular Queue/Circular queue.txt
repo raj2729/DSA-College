@@ -1,0 +1,92 @@
+Insert into circular queue: 
+
+     rear        
+
+40 
+
+front            
+
+Void enque (int x) 
+
+{ 
+
+	If(front==0 && rear = size-1) || rear ==	(front-1) 
+
+		Que is full 
+
+	Else if(front==-1) 
+
+	{ 
+		front=rear=0; 
+
+		A[front]=x; 
+
+	} 
+
+	Else if(rear==size-1 && front  !=0) 
+
+	{ 
+		rear=0 
+
+		A[rear]=x; 
+
+	} 
+
+	Else 
+	{
+
+		Rear++; 
+
+		A[rear]=x 
+
+	} 
+
+} 
+
+ 
+
+2.Delete from Circular Queue: 
+
+ 
+
+Int deque() 
+
+{ 
+
+	If(front=--1) 
+
+	{ 
+
+		Queu is empty  
+
+	} 
+
+	Int x = a[front] 
+
+	If(front =rear) 
+
+	{ 
+
+		Front=rear=-1 
+
+	} 
+
+	Else if(front=size-1) 
+
+	{ 
+
+		Front=0 
+
+	} 
+
+	Else 
+
+	{ 
+
+		Front++ 
+
+	} 
+
+	Return x; 
+
+} 

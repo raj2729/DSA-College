@@ -1,0 +1,21 @@
+APPLICATIONS OF STACKS
+____________________________________________________
+
+In this section we will discuss typical problems where stacks can be easily applied for a simple
+and efficient solution. The topics that will be discussed in this section include the following:
+
+1. Reversing a list(Enter numbers and display stack . This reverses it )
+
+2. Parentheses checker
+
+3. Conversion of an infix expression into a postfix expression
+
+4. Evaluation of a postfix expression
+
+5. Conversion of an infix expression into a prefix expression
+
+6. Evaluation of a prefix expression
+
+7. Recursion
+
+8. Tower of Hanoi

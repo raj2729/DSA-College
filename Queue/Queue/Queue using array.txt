@@ -1,0 +1,149 @@
+Implement Queue using array: 
+
+Insert(Enque): 
+
+front=rear=-1 
+
+ISQfull() 
+
+{ 
+
+	If(rear==Max-1) 
+
+	{ 
+		"Queue is full"; 
+	} 
+
+} 
+
+Void instert x) 
+
+{ 
+
+	If(front ==-1) 
+
+	{ 
+
+		Front++; 
+
+	} 
+
+	Que[++rear]=x; 
+
+} 
+
+ 
+
+IsQempty() 
+
+{ 
+
+	If(front==-1) || (front> rear) 
+
+		Return 1; 
+
+	Else return 0; 
+
+} 
+
+ 
+
+ 
+
+Int delete(deque): 
+
+Int delete() 
+
+{ 
+
+	Int x; 
+
+	X=que[front]; 
+
+	Front ++ 
+
+	Return X; 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Implement Queue using Linked list:
+ 
+
+Front,rear 
+
+Insert(val) 
+
+	If(rear==null) 
+
+	{ 
+
+		Rear=Createnode(); 
+
+		Rear->next=null; 
+
+		Rear->data=val; 
+
+		Front=rear; 
+
+	} 
+
+	Else 
+
+	{ 
+
+		Temp=createnode(); 
+
+		Rear->next=temp; 
+
+		Temp->data=val; 
+
+		Temp->next=Null; 
+
+		Rear=temp; 
+
+	} 
+
+ 
+
+ 
+
+Void Delete() 
+{ 
+
+	Temp=front; 
+
+	If(front==null) 
+
+		{"Underflow"} 
+
+	If(temp->next !=null) 
+
+	{ 
+
+		Printf("temp->data") 
+
+		Temp=temp->next; 
+
+		Free(front); 
+
+		Front=temp; 
+
+	} 
+
+	Else 
+
+	{
+		Free(front); 
+
+		Front=rear=null; 
+
+	} 
+} 
