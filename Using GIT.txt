@@ -1,0 +1,23 @@
+$ git init => Initializa Local Git Repository
+
+$ git remote add origin url of repo
+
+$ git add<file> => Adds file to index
+
+$ git add -A => Adds all files
+
+$ git status => check status of Working Tree
+
+$ git commit -m "Message"=> Commit changes in Index
+
+$ git push -u url main(branch name) => push to remote repository
+
+$ git clone => clones file into new directory
+                   git clone OR
+$ git pull origin name_of_branch
+(repo gets cloned)
+
+mongo "mongodb://amazon-clone-backend-shard-00-00.uvjxc.mongodb.net:27017,amazon-clone-backend-shard-00-01.uvjxc.mongodb.net:27017,amazon-clone-backend-shard-00-02.uvjxc.mongodb.net:27017/<dbname>?replicaSet=atlas-mkegpn-shard-0" --ssl --authenticationDatabase admin --username raj2729 --password Sanghavi@123
+
+dbname=> AmazonDatabase
+
